@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T17:51:30.720Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2zxaClgi5ghYn13sr7hZ" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T18:19:37.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="dS4LBVj7R_C0NF14LdyF" version="20.2.3" type="github">
   <diagram id="jhaafFEPWd3DmiytivvX" name="Page-1">
-    <mxGraphModel dx="2544" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2827" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1964,17 +1964,20 @@
         <mxCell id="uEMYShtdpZsykacgtm3P-295" value="读写数据" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="4535" y="813.06" width="74" height="38.12" as="geometry" />
         </mxCell>
-        <mxCell id="uEMYShtdpZsykacgtm3P-296" value="View层" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fontSize=15;fillColor=#FF668F;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="uEMYShtdpZsykacgtm3P-296" value="View层" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FF668F;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="4250" y="301.14" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uEMYShtdpZsykacgtm3P-297" value="ViewModel层" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fontSize=15;fillColor=#FF9933;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="uEMYShtdpZsykacgtm3P-297" value="ViewModel层" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FF9933;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="4250" y="388" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uEMYShtdpZsykacgtm3P-298" value="Model层" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fontSize=15;fillColor=#68A0AB;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="uEMYShtdpZsykacgtm3P-298" value="Model层" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#68A0AB;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="4250" y="478" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uEMYShtdpZsykacgtm3P-299" value="&lt;span id=&quot;docs-internal-guid-62b5d06e-7fff-4f25-1749-f35c0f688ba1&quot;&gt;&lt;span style=&quot;font-size: 16pt; font-family: &amp;quot;Noto Sans SC&amp;quot;, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;&quot;&gt;“拍一拍”在线拍卖 App iOS 端&lt;/span&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="4390" y="253.13" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uEMYShtdpZsykacgtm3P-300" value="View层" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fontSize=15;fillColor=#FF668F;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="5270" y="490.61" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
