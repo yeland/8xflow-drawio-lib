@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T10:29:13.027Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="1WdDU1MQxs17koyZd6mf" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T11:07:41.378Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="nonYDzADCbuylv7hBkR5" version="20.2.3" type="github">
   <diagram id="jhaafFEPWd3DmiytivvX" name="Page-1">
-    <mxGraphModel dx="4803" dy="2567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2675" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
         </mxCell>
         <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;%name%&lt;br&gt;%createAt%&lt;br&gt;%auctionDate%&lt;br&gt;%commission%&lt;br&gt;%reservePrice%&lt;br&gt;%estimate%&lt;br&gt;&lt;/font&gt;" placeholders="1" type="proposal" name="拍卖方案" createAt="create_at" auctionDate="auction_date" commission="commission" reservePrice="reserve_price" estimate="estimate" id="BiotPJXr3foGRcshg_3U-2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CE6E9C;noLabel=0;comic=0;recursiveResize=1;strokeColor=none;" parent="1" vertex="1">
-            <mxGeometry x="-275.5" y="524.52" width="165.5" height="115" as="geometry" />
+            <mxGeometry x="-370" y="496.65" width="165.5" height="115" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;&lt;br&gt;%name%&lt;br&gt;&lt;br&gt;%createAt%&lt;br&gt;&lt;/font&gt;" placeholders="1" type="contract" name="委托拍卖协议" createAt="create_at" id="BiotPJXr3foGRcshg_3U-3">
@@ -85,12 +85,12 @@
             <mxGeometry x="210.66000000000003" y="424.57" width="170" height="100" as="geometry" />
           </mxCell>
         </object>
-        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;%name%&lt;br&gt;%createAt%&lt;br&gt;%expireAt%&lt;br&gt;%price%&lt;br&gt;&lt;/font&gt;" placeholders="1" type="fulfilment" name="成交剩余款项支付请求" createAt="create_at" expireAt="expire_at" price="price" id="BiotPJXr3foGRcshg_3U-13">
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;%name%&lt;br&gt;%createAt%&lt;br&gt;%expireAt%&lt;br&gt;%price%&lt;br&gt;&lt;/font&gt;" placeholders="1" type="fulfilment" name="出售收益支付请求" createAt="create_at" expireAt="expire_at" price="price" id="BiotPJXr3foGRcshg_3U-13">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CE6E9C;noLabel=0;comic=0;recursiveResize=1;strokeColor=none;" parent="1" vertex="1">
             <mxGeometry x="-8.769999999999996" y="550.61" width="170" height="100" as="geometry" />
           </mxCell>
         </object>
-        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;%name%&lt;br&gt;%createAt%&lt;br&gt;%price%&lt;br&gt;&lt;/font&gt;" placeholders="1" type="evidence" name="成交剩余款项支付确认" createAt="create_at" price="price" id="BiotPJXr3foGRcshg_3U-14">
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;%name%&lt;br&gt;%createAt%&lt;br&gt;%price%&lt;br&gt;&lt;/font&gt;" placeholders="1" type="evidence" name="出售收益支付确认" createAt="create_at" price="price" id="BiotPJXr3foGRcshg_3U-14">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DC9156;noLabel=0;comic=0;recursiveResize=1;strokeColor=none;" parent="1" vertex="1">
             <mxGeometry x="221.23000000000002" y="550.61" width="170" height="100" as="geometry" />
           </mxCell>
@@ -637,21 +637,21 @@
             <mxGeometry x="-130" y="232.54" width="119" height="70" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="BiotPJXr3foGRcshg_3U-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BiotPJXr3foGRcshg_3U-2" target="uEMYShtdpZsykacgtm3P-29" edge="1">
+        <mxCell id="BiotPJXr3foGRcshg_3U-161" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BiotPJXr3foGRcshg_3U-2" target="uEMYShtdpZsykacgtm3P-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-265.5" y="652.02" as="sourcePoint" />
-            <mxPoint x="-240.5" y="673.8800000000001" as="targetPoint" />
+            <mxPoint x="-400.5" y="624.08" as="sourcePoint" />
+            <mxPoint x="-375.5" y="645.9400000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="domain" name="委托服务费计算" id="BiotPJXr3foGRcshg_3U-168">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#DC9156;fontSize=12;strokeColor=none;" parent="1" vertex="1">
-            <mxGeometry x="-435" y="546.52" width="119" height="70" as="geometry" />
+            <mxGeometry x="-530" y="518.58" width="119" height="70" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="BiotPJXr3foGRcshg_3U-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="BiotPJXr3foGRcshg_3U-2" target="BiotPJXr3foGRcshg_3U-168" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-230.5" y="652.02" as="sourcePoint" />
-            <mxPoint x="-230.5" y="692.02" as="targetPoint" />
+            <mxPoint x="-365.5" y="624.08" as="sourcePoint" />
+            <mxPoint x="-365.5" y="664.08" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <object label="" n="1" m="*" id="BiotPJXr3foGRcshg_3U-176">
@@ -689,7 +689,7 @@
         </object>
         <object label="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="居间人" id="BiotPJXr3foGRcshg_3U-187">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#DC9156;fontSize=12;strokeColor=none;" parent="1" vertex="1">
-            <mxGeometry x="-156.5" y="615.47" width="51" height="30" as="geometry" />
+            <mxGeometry x="-250" y="588.58" width="51" height="30" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="卖家" id="BiotPJXr3foGRcshg_3U-188">
@@ -1013,7 +1013,7 @@
         </mxCell>
         <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="3rd System" name="拍品评价中心" id="uEMYShtdpZsykacgtm3P-29">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#DC9156;strokeColor=none;" vertex="1" parent="1">
-            <mxGeometry x="-252.25" y="682.52" width="119" height="70" as="geometry" />
+            <mxGeometry x="-427" y="643.13" width="119" height="70" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;%name%&lt;br&gt;&lt;/b&gt;&lt;br&gt;%createAt%&lt;br&gt;&lt;/font&gt;" placeholders="1" type="evidence" name="拍品提交确认" createAt="created_at" id="uEMYShtdpZsykacgtm3P-35">
@@ -1799,6 +1799,58 @@
         <object label="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="保管系统" id="uEMYShtdpZsykacgtm3P-236">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#DC9156;fontSize=12;strokeColor=none;" vertex="1" parent="1">
             <mxGeometry x="748.56" y="441.26" width="60" height="36.87" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;%name%&lt;br&gt;%createAt%&lt;br&gt;%expireAt%&lt;br&gt;&lt;/font&gt;" placeholders="1" type="fulfilment" name="拍品撤回请求" createAt="create_at" expireAt="expire_at" id="uEMYShtdpZsykacgtm3P-237">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D173A2;noLabel=0;comic=0;recursiveResize=1;strokeColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-255.50000000000006" y="630.6099999999999" width="170" height="100" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;%name%&lt;br&gt;%createAt%&lt;br&gt;&lt;/font&gt;" placeholders="1" type="fulfilment" name="拍品撤回确认" createAt="create_at" id="uEMYShtdpZsykacgtm3P-238">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CE6E9C;noLabel=0;comic=0;recursiveResize=1;strokeColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-255.5" y="782.12" width="170" height="100" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="uEMYShtdpZsykacgtm3P-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uEMYShtdpZsykacgtm3P-237" target="uEMYShtdpZsykacgtm3P-238">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-483.84" y="724.03" as="sourcePoint" />
+            <mxPoint x="-423.84" y="724.03" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uEMYShtdpZsykacgtm3P-240" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="uEMYShtdpZsykacgtm3P-239">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uEMYShtdpZsykacgtm3P-241" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="uEMYShtdpZsykacgtm3P-239">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uEMYShtdpZsykacgtm3P-242" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="uEMYShtdpZsykacgtm3P-237" source="BiotPJXr3foGRcshg_3U-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-729.9999999999998" y="774.4599999999998" as="sourcePoint" />
+            <mxPoint x="-525.5" y="534.46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uEMYShtdpZsykacgtm3P-243" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="uEMYShtdpZsykacgtm3P-242">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uEMYShtdpZsykacgtm3P-244" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="uEMYShtdpZsykacgtm3P-242">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="卖家" id="uEMYShtdpZsykacgtm3P-249">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#DC9156;fontSize=12;strokeColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-130" y="707.12" width="51" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="居间人" id="uEMYShtdpZsykacgtm3P-250">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#DC9156;fontSize=12;strokeColor=none;" vertex="1" parent="1">
+            <mxGeometry x="-130" y="861.99" width="51" height="30" as="geometry" />
           </mxCell>
         </object>
       </root>
